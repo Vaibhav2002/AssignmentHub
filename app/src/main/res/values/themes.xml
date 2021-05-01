@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AssignmentHub" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="colorPrimaryVariant">@color/blueDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/bluePrimary</item>
+        <item name="colorSecondaryVariant">@color/blueDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="backgroundColor">@color/backgroundLight</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <item name="colorBackgroundFloating">@color/blueLight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="authTextBox">
+        <item name="android:background">@drawable/auth_input</item>
+        <item name="android:textAppearance">@style/TextAppearance.MdcTypographyStyles.Body1</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="authButton">
+        <item name="color">?attr/colorPrimary</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+
+    <style name="innerCard" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@drawable/inner_card_bg</item>
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">97sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">61sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/worksans_regular</item>
+        <item name="android:fontFamily">@font/worksans_medium</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/worksans_regular</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/worksans_regular</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/worksans_regular</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/worksans_regular</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment Hub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+
+
+    <string name="onboarding1">Mange your online assignments.\nFor both teachers and students</string>
+    <string name="onboarding2">See  all your ongoing and previous\nassignments directly in your phone</string>
+    <string name="onboarding3">Submit your assignments directly\nfrom your phone</string>
+
+    <string-array name="classes">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </string-array>
+</resources>

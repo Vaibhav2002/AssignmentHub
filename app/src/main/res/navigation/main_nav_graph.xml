@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.vaibhav.assignmenthub.ui.screens.homeActivity.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_assignmentFragment"
+            app:destination="@id/assignmentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_createAssignmentFragment"
+            app:destination="@id/createAssignmentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignmentFragment"
+        android:name="com.vaibhav.assignmenthub.ui.screens.homeActivity.assignment.AssignmentFragment"
+        android:label="fragment_assignment"
+        tools:layout="@layout/fragment_assignment">
+        <argument
+            android:name="assignment"
+            app:argType="com.vaibhav.assignmenthub.data.models.Assignment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAssignmentFragment"
+        android:name="com.vaibhav.assignmenthub.ui.screens.homeActivity.createAssignment.CreateAssignmentFragment"
+        android:label="fragment_create_assignment"
+        tools:layout="@layout/fragment_create_assignment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.vaibhav.assignmenthub.ui.screens.homeActivity.profileScreen.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>
