@@ -9,6 +9,10 @@
 Clone the repository on your machine. Open the project on your IDE and connect it to firebase.
 Set up Firebase Auth with email and password authentication. Enable Firestore too.
 
+***You can Install and test latest NotesX app from below 👇***
+
+[![AssignmentHub](https://img.shields.io/badge/AssignmentHub✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Vaibhav2002/AssignmentHub/releases/tag/v1.0.0)
+
 
 ## About
 
